@@ -45,7 +45,7 @@ h1, h2, h3 {
 
 #  HEADER
 st.title("MoneyMentor AI!")
-st.write("Your AI-powered financial advisor for smarter budgeting, saving, and investing.")
+st.write("Your AI-powered financial advisor for smarter budgeting, saving and investing.")
 
 st.divider()
 
@@ -98,7 +98,7 @@ st.divider()
 #  CHATBOT 
 st.subheader("Ask Your AI Financial Advisor!")
 
-user_input = st.text_input("Ask a question about budgeting, saving, or investing")
+user_input = st.text_input("Ask a question about budgeting, saving or investing")
 
 if st.button("Get Advice!!"):
 
